@@ -1,0 +1,24 @@
+.hidden {
+    display: none;
+}
+.body_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top_header {
+    background: linear-gradient(to bottom, #006eff, #ffffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+}
+.text_div {
+    display: flex;
+    margin-top: 30%;
+}
